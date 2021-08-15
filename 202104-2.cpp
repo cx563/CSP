@@ -34,7 +34,7 @@ int main()
                 tmp += (v[leftdown][rightup] - v[leftdown][leftup - 1]);
                 leftdown++;
             }
-            if(tmp * 1.0 / num  <= ti)    //  要进行浮点比较 真服了
+            if(tmp * 1.0 / num  <= ti)    //  要进行浮点比较 
                 res++;
         }
     }
